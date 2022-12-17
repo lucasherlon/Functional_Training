@@ -5,7 +5,7 @@ defmodule Restdivision  do
     {y, _} = IO.gets("")
     |> Integer.parse
     get_list(x,y)
-    |> Enum.each(fn(s) -> IO.puts(s) end)
+    |> Enum.each(fn s -> IO.puts(s) end)
   end
 
   def get_list(x,y) when x < y do
