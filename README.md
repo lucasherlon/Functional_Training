@@ -1,2 +1,2 @@
-# Beecrowd_Elixir
-Soluções de alguns problemas da plataforma Beecrowd em Elixir
+# Beecrowd_Funcional
+Soluções de alguns problemas da plataforma Beecrowd utilizando paradigma funcional
