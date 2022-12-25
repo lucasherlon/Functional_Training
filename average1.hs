@@ -1,6 +1,6 @@
 import Text.Printf
 
-main :: IO()
+main :: IO ()
 main = do
       a' <- getLine
       b' <- getLine
@@ -8,4 +8,4 @@ main = do
       let b = read b' :: Double
       let average = ((a * 3.5) + (b * 7.5)) / 11
 
-      putStrLn $ printf "%.5f" average
+      putStrLn $ printf "MEDIA = %.5f" average
