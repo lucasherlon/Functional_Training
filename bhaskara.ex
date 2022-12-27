@@ -21,7 +21,6 @@ defmodule Bhaskara do
   def bhaskara(num, a, b) when num == 0 do
     raiz = (-b + :math.sqrt(num)) / (2 * a)
     IO.puts("R1 = #{:erlang.float_to_binary(raiz ,[decimals: 5])}")
-    IO.puts("R2 = #{:erlang.float_to_binary(raiz ,[decimals: 5])}")
   end
 
   def bhaskara(num, a, b) do
