@@ -10,8 +10,8 @@ defmodule Bhaskara do
   def get_number({num, _}), do: num
 
   def delta([a,b,c]) do
-    num = b ** 2 - (4 * a * c)
-    bhaskara(num, a, b)
+    b ** 2 - (4 * a * c)
+    |> bhaskara(a, b)
   end
 
   def bhaskara(_num, a, _b) when a == 0, do: IO.puts("Impossivel calcular")
