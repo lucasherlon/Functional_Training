@@ -30,7 +30,6 @@ defmodule Bhaskara do
     IO.puts("R1 = #{:erlang.float_to_binary(raiz1 ,[decimals: 5])}")
     IO.puts("R2 = #{:erlang.float_to_binary(raiz2 ,[decimals: 5])}")
   end
-
 end
 
 Bhaskara.run
