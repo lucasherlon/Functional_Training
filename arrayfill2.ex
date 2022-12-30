@@ -7,7 +7,8 @@ defmodule Arrayfill do
   end
 
   defp filling(a) do
-    Enum.map(0..999, fn x -> IO.puts("N[#{x}] = #{rem(x,a)}") end)
+    Enum.map(0..999, fn x -> 
+      IO.puts("N[#{x}] = #{rem(x,a)}") end)
   end
 end
 Arrayfill.run
