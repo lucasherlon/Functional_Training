@@ -5,14 +5,15 @@ defmodule GrowingSequence do
   end
 
   defp read_number() do
-    IO.read(:stdio, :line)
-    |> String.trim
-    |> String.to_integer
+    {num, _} = 
+      IO.read(:stdio, :line)
+      |> Integer.parse
+    num
   end
 
   defp show_sequence(0), do: :nil
   defp show_sequence(num) do
-    Enum.map(1..num-1, &IO.write("#{&1} "))
+    Enum.each(1..num-1, &IO.write("#{&1} "))
     IO.puts "#{num}"
     main()
   end
