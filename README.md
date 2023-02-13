@@ -1,2 +1,2 @@
-# Beecrowd_Funcional
-Soluções de alguns problemas da plataforma Beecrowd utilizando paradigma funcional
+# Functional_Training
+Resoluçao de problemas de lógica de programação utilizando o paradigma funcional. 
