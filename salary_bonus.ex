@@ -1,6 +1,6 @@
 defmodule SalaryBonus do
   def run do
-    _nome = IO.read(:stdio, :line) |> String.trim()
+    _name = IO.read(:stdio, :line) |> String.trim()
     {salary, _} = IO.read(:stdio, :line) |> Float.parse()
     {sales, _} = IO.read(:stdio, :line) |> Float.parse()
     bonus = sales * 0.15
