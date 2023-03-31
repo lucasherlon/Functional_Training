@@ -1,2 +1,2 @@
 # Functional_Training
-Resoluçao de problemas de lógica de programação utilizando o paradigma funcional. 
+The functional way is the funniest way
