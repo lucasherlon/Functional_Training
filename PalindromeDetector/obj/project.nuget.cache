@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "s51Wum1rtOXocJ8wF3NeVtEAgz1M/p5fwGK+/B6N/G7zb6bFoXvovoQ6PlN+/fJDQfm+6H91oXr55HIlH9/v3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samsung\\Documents\\dotnet\\Codigos\\PalindromeDetector\\PalindromeDetector.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samsung\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
