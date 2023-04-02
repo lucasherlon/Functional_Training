@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MobP8T2G4RCiDG365QbZBnWRqtrFNnobR27wka4Uoh0FYHftrL50HOvhjjOfZRvbQV0z+obAlosORquD+TW2NQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samsung\\Documents\\dotnet\\Codigos\\YouSquare\\YouSquare.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samsung\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
